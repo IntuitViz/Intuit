@@ -1,2 +1,7 @@
 # Intuit
-Code base related to the project: Interactive visualization towards facilitating physical activity researchers in training machine learning algorithm
+
+We have coded and tested the visualization both in Mac and Windows laptops using Chrome as a browser. We know that the loading is very slow, but we have tested it uploading in Git Hub Pages and it should charge everything. Please use the following url https://irenedelatorre.github.io/Intuit/
+
+Thank you!
+
+The Intuit team

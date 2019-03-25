@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Explaining misclassified instances in machine learning during training to support informed debugging of data and features">
+        <meta name="keywords" content="d3.js, Machine Learning, ML, data visualization, Northeastern University, College of Arts, Media and Design">
+        <meta name="author" content="Irene de la Torre Arenas, Farnaz Irannejad, Binod Thapa Chhetry">
+        <title>Debugging Machine Learning</title>
+
+        <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+
+     <div class="container firstPart">
+         <div class="loading">
+             <p>The loading of the dataset takes around 30 seconds.</p>
+             <p>Thank you!</p>
+             <!--<p>Loading...</p>-->
+         </div>
+         <h1 class="row">Debugging Machine Learning</h1>
+         <h2 class="row"><span class="secondtitle">Explaining misclassified instances in machine learning
+             </br>during training to support informed debugging of data and features</span></h2>
+         <div class="row intro">
+             <p>By <span class="authors">Farnaz Irannejad, Binod Thapa Chhetry and Irene de la Torre Arenas</span> | Fall 2016</p>
+             <p>Special Topics in Information Visualization. Professor: Michelle Borkin | Northeastern University</p>
+         </div>
+         <div id="intro" class="row">
+             <h3>About the project</h3>
+             <div class="col-md-5 explText">
+                 <p class="row">Machine learning (ML) algorithms study the pattern repetitions to learn and make predictions on data. Typically, this training uses massive data sets from which the algorithm identifies which features are important. However, many times a ML Expert needs to take part in the process of tweaking the parameters. Problems arise when the algorithms are used in user-oriented systems, where the data –usually very small labeled data- reflects highly individualized behaviors or preferences. In these situations, it’s the end-user (non-expert in ML) who must be involved in training the algorithm to correct the labeling. </p>
+                 <p class="row">>‘Black-box’ systems, with output that is not interpretable by a non-expert, will frustrate end users if they become dependent upon the systems. This is due to the fact that users will need to tailor and fix the systems when the systems break. This project tries to solve this situation by proposing an interactive visualization system, where different visualizations explain the raw data that were either misclassified or properly labelled. By facilitating a comparison between raw data from different classes we aim to transform the black box, making it intelligible to all the users. </p>
+                 </br>
+                 <h4 class="row">The Data</h4>
+                 <p class="row">Our project uses a dataset (courtesy of mHealth lab at Northeastern) of acceleration data tagged with activity type that was previously acquired for a study in activity recognition. The activities labeled were: biking outdoor, biking stationary at 300 KPM/min, folding pile of towels, frisbee, in elevator going up, jumping jacks, lying on back, on escalator going up, running at 5.5 mph 5% grade on treadmill, shelf reloading, shelf unloading, sitting (plotted on the right side of the screen), standing, sweeping, vending machine, walking at 1 mph (plotted on the right side of the screen), walking at 2 mph, walking at 3 mph, walking at 3.5 mph, walking outdoor, walking stairs down, walking stairs up.</p>
+                 <p class="row">We believe that showing the visual differences in the accelerations of each activity, specially in instances in which the labels were misclassified, can help experts to improve their algorithm. </p>
+
+             </div>
+             <div class="col-md-1"></div>
+             <div class="col-md-6">
+                 <h4 class="row">Raw Data Examples</h4>
+                 <p class="row legend">In g (m/s2) units</p>
+                 <div id="legendFeature" class="row"></div>
+                 <div id="ex-feature1" class="row">
+                     <h5>Label A: walking at 1 mph</h5>
+                 </div>
+                 <div id="ex-feature2" class="row">
+                     <h5>Label B: sitting</h5>
+                 </div>
+             </div>
+         </div>
+         <div class="mainPiece row">
+             <h3>Finding errors in Machine Learning results</h3>
+             <p>Compared to the complex learning algorithms, the raw data and features tend to be familiar entities for the users who, usually, have a better understanding of the data has been gathered. The goal of our visualization is mainly to impart ‘actionable’ explanations of the misclassified instances.</p>
+             <p>The main identification of wrong classified instances is done in three different steps. In the first one, a <span class="highlight">confusion matrix</span> allows the user to check which activities were more problematic for the algorithm by highlighting through colors which items were correctly or wrongly classified; in the second visualization, that is activated when the user clicks a cell in the matrix, an <span class="highlight">item list</span> is provided by showing the items that belong to the true label and predicted label. Finally, when clicking one of the items in the list, a <span class="highlight">visual comparison</span> between the raw data and the true label and prediction label is provided through the visualization of the three different charts. </p>
+         </div>
+        </div>
+     <div class="container-fluid">
+             <div class="row col-md-8">
+                 <div id="adjacencyMatrix" class="row">
+                     <h4 class="row">Confusion Matrix</h4>
+                     <p class="row">This matrix shows every activity that was predicted versus their true classification. Click in the matrix to explore the items analyzed by the algorithm corresponding specific predictions and true classifications.</p>
+                     <div id="matrixLegend" class="row"></div>
+                     <div id="matrix" class="row"></div>
+                 </div>
+                 <div id ="table-wrapper" class="row">
+                     <h4 class="row">Items wrongly predicted by the algorithm</h4>
+                     <p class="row">This is a list of every activity that was wrongly predicted by the Machine Learning Algorithm. Click on one specific item to compare its raw data versus the true and predicted categories.</p>
+                     <div id="featureList" class="row"></div>
+                 </div>
+             </div>
+
+             <div id = "plots"  class="col-md-4 miniPlots">
+                 <h4 class="row">Item's raw data, comparisons</h4>
+                 <p class="row">Compare the raw data with items that were correctly categorized (at the top, the classed category; at the bottom, the prediction)</p>
+                 <p class="legend row">In g (m/s2) units</p>
+                 <div id="legendFeature2" class="row"></div>
+                 <div id="plot1" class="row">
+                     <div id="realActivity">
+                         <h5 id= "realActivityName">Activity (actual label)</h5>
+                         <p id="legendRealActivity"></p>
+                         <img id="prevReal" class="group1-Prev btngraph col-md-6" src="btn.svg" alt="HTML5 Icon" style="width:128px;height:128px;">
+                         <img id="nextReal" class="group1-Next btngraph col-md-6" src="btn.svg" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+                     </div>
+                 </div>
+                 <div id="plot2" class="row">
+                     <div id="actualData">
+                         <h5 id="actualDataName">Raw Data</h5>
+                         <p id="legendActualActivity"></p>
+                         <a id="testA"></a>
+                     </div>
+                 </div>
+                 <div id="plot3" class="row">
+                     <div id="wrongActivity">
+                         <h5 id= "wrongActivityName">Prediction (incorrect label)</h5>
+                         <p id="legendWrongActivity">STHS</p>
+                         <!--Custom navigation buttons on both sides-->
+                         <img id="prevWrong" class="group1-Prev btngraph col-md-6" src="btn.svg" alt="HTML5 Icon" style="width:128px;height:128px;">
+                         <img id="nextWrong" class="group1-Next btngraph col-md-6" src="btn.svg" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+                     </div>
+                 </div>
+             </div>
+     </div>
+    <div class="container">
+        <h3 class="row">Research work</h3>
+        <div class="col-md-6">
+            <h4 class="row">Paper</h4>
+            <p>You can read the final paper <a href="Debugging-Machine-Learning.pdf">here</a> </p>
+        </div>
+        <div class="col-md-6">
+            <h4 class="row">Demo video</h4>
+            <iframe src="https://player.vimeo.com/video/194869932" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/194869932">DEBUGGING Machine Learning - DEMO</a> from <a href="https://vimeo.com/user9228917">Irene de la Torre Arenas</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
+    </div>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <!--<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>-->
+        <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+        <!--<script src="d3tip.js"></script>-->
+     <script src="lib/jquery/jquery-1.11.1.min.js"></script>
+        <script src="lib/crossfilter/crossfilter.js"></script>
+        <!--<script src="work/scroll.js"></script>-->
+        <script src="script4.js"></script>
+    </body>
+
+</html>

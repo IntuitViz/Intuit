@@ -1,0 +1,257 @@
+html,body{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.loading {
+    width:100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    /*background-color:rgba(255,255,255,0.9);*/
+    z-index: 200;
+    background: rgba(255,255,255,0.9) url("loading.gif") no-repeat 50% 50%;
+    animation-duration: initial;
+    animation-play-state: running;
+    padding-top:340px;
+
+
+}
+.loading p {
+    font-size:18px;
+    color: #000;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.container{
+    /*height:100%;*/
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-fluid{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 -3px 7px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+
+.controls{
+    position:relative;
+    height:100px;
+    border-bottom:1px solid rgb(200,200,200);
+}
+
+
+.axis .domain{
+    display:none;
+}
+.axis-y .tick line {
+    stroke-dasharray: 4,4 !important;
+}
+.axis line{
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#000
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2 small {
+    font-weight: 300;
+    line-height: 3;
+    color: #666;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+h4{
+    /*font-size: 24px;*/
+    font-weight: 500 !important;
+    color: rgb(141, 160, 203);
+}
+p{
+    text-align: justify;
+}
+.secondtitle{
+    width: 75%;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.3;
+    font-size: 26px;
+}
+.highlight{
+    font-weight: 700;
+}
+.intro {
+    padding-top: 10px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 20px;
+}
+
+.intro p {
+    line-height: 1.2;
+}
+
+.authors {
+    font-weight: bold;
+}
+/*intro features*/
+#legendFeature{
+    margin-bottom: -20px;
+}
+#ex-feature1, #ex-feature2 {
+    min-height:200px;
+    padding-top:10px;
+}
+
+.explText{
+    /*padding-right: 60px;*/
+    padding-top: 10px;
+}
+/*matrix*/
+.mainPiece{
+    margin-top: 50px;
+}
+#matrix {
+    margin-top:10px;
+    height:550px;
+}
+#matrix svg {
+    /*max-width:1100px;*/
+}
+#adjacencyG rect {
+    stroke: #8da0cb;
+    stroke-width: 0.25;
+}
+
+#matrix .axis line {
+    stroke: none !important;
+}
+
+.textMatrix{
+    font-size: 9px;
+}
+
+#adjacencyMatrix p, #adjacencyMatrix h4{
+    padding-right: 175px;
+}
+.class-axis-x line, .class-axis-y line {
+    stroke: #ddd;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.class-axis-x text, .class-axis-y text{
+    fill: #999;
+}
+/*TABLE*/
+#table-wrapper{
+    opacity:0.1;
+    padding-right: 175px;
+    margin-top: 20px;
+}
+
+#featureList{
+    overflow: overlay;
+    max-height: 250px;
+    margin-top:20px;
+}
+
+.title{
+    font-weight: 900;
+}
+.item{
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+td{
+    padding-right: 20px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #999;
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+.explanation, .explanation line {
+    fill: none;
+    stroke-width:2px;
+}
+
+.acceleration-x{
+    stroke: #fc8d62;
+}
+
+.acceleration-y{
+    stroke: #8da0cb;
+}
+
+.acceleration-z{
+    stroke: #66c2a5;
+}
+
+/*plots*/
+#plots{
+    opacity:0.1;
+    /*margin-top: 50px;*/
+    background-color: rgb(249, 249, 249);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#realActivity, #wrongActivity, #actualData {
+    min-height:230px;
+    margin-top:30px;
+
+}
+
+#prevReal, #nextReal, #prevWrong, #nextWrong{
+    width: 75px !important;
+    height: 50px !important;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#nextReal,#nextWrong{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+}
+
+
