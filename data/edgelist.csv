@@ -1,0 +1,485 @@
+source,target,weight
+biking outdoor,sitting,0
+biking outdoor,standing,8
+biking outdoor,on escalator going up,0
+biking outdoor,in elevator going up,0
+biking outdoor,walking at 1 mph,0
+biking outdoor,walking at 2 mph,0
+biking outdoor,walking at 3.5 mph,0
+biking outdoor,walking at 3 mph,0
+biking outdoor,walking outdoor,0
+biking outdoor,walking stairs up,0
+biking outdoor,walking stairs down,0
+biking outdoor,running at 5.5 mph 5% grade on treadmill,0
+biking outdoor,biking outdoor,0
+biking outdoor,biking stationary at 300 KPM/min,15
+biking outdoor,vending machine,0
+biking outdoor,frisbee,3
+biking outdoor,lying on back,0
+biking outdoor,sweeping,4
+biking outdoor,folding pile of towels,0
+biking outdoor,shelf unloading,0
+biking outdoor,shelf reloading,0
+biking outdoor,jumping jacks,0
+biking stationary at 300 KPM/min,sitting,0
+biking stationary at 300 KPM/min,standing,0
+biking stationary at 300 KPM/min,on escalator going up,0
+biking stationary at 300 KPM/min,in elevator going up,0
+biking stationary at 300 KPM/min,walking at 1 mph,0
+biking stationary at 300 KPM/min,walking at 2 mph,0
+biking stationary at 300 KPM/min,walking at 3.5 mph,0
+biking stationary at 300 KPM/min,walking at 3 mph,0
+biking stationary at 300 KPM/min,walking outdoor,0
+biking stationary at 300 KPM/min,walking stairs up,1
+biking stationary at 300 KPM/min,walking stairs down,0
+biking stationary at 300 KPM/min,running at 5.5 mph 5% grade on treadmill,0
+biking stationary at 300 KPM/min,biking outdoor,53
+biking stationary at 300 KPM/min,biking stationary at 300 KPM/min,39
+biking stationary at 300 KPM/min,vending machine,0
+biking stationary at 300 KPM/min,frisbee,0
+biking stationary at 300 KPM/min,lying on back,0
+biking stationary at 300 KPM/min,sweeping,0
+biking stationary at 300 KPM/min,folding pile of towels,0
+biking stationary at 300 KPM/min,shelf unloading,0
+biking stationary at 300 KPM/min,shelf reloading,0
+biking stationary at 300 KPM/min,jumping jacks,1
+folding pile of towels,sitting,0
+folding pile of towels,standing,24
+folding pile of towels,on escalator going up,0
+folding pile of towels,in elevator going up,0
+folding pile of towels,walking at 1 mph,42
+folding pile of towels,walking at 2 mph,0
+folding pile of towels,walking at 3.5 mph,0
+folding pile of towels,walking at 3 mph,0
+folding pile of towels,walking outdoor,0
+folding pile of towels,walking stairs up,0
+folding pile of towels,walking stairs down,0
+folding pile of towels,running at 5.5 mph 5% grade on treadmill,0
+folding pile of towels,biking outdoor,0
+folding pile of towels,biking stationary at 300 KPM/min,0
+folding pile of towels,vending machine,0
+folding pile of towels,frisbee,0
+folding pile of towels,lying on back,0
+folding pile of towels,sweeping,1
+folding pile of towels,folding pile of towels,4
+folding pile of towels,shelf unloading,1
+folding pile of towels,shelf reloading,3
+folding pile of towels,jumping jacks,0
+frisbee,sitting,0
+frisbee,standing,0
+frisbee,on escalator going up,0
+frisbee,in elevator going up,0
+frisbee,walking at 1 mph,0
+frisbee,walking at 2 mph,0
+frisbee,walking at 3.5 mph,0
+frisbee,walking at 3 mph,0
+frisbee,walking outdoor,2
+frisbee,walking stairs up,3
+frisbee,walking stairs down,1
+frisbee,running at 5.5 mph 5% grade on treadmill,0
+frisbee,biking outdoor,0
+frisbee,biking stationary at 300 KPM/min,0
+frisbee,vending machine,0
+frisbee,frisbee,17
+frisbee,lying on back,0
+frisbee,sweeping,1
+frisbee,folding pile of towels,0
+frisbee,shelf unloading,0
+frisbee,shelf reloading,1
+frisbee,jumping jacks,0
+in elevator going up,sitting,0
+in elevator going up,standing,0
+in elevator going up,on escalator going up,0
+in elevator going up,in elevator going up,0
+in elevator going up,walking at 1 mph,0
+in elevator going up,walking at 2 mph,33
+in elevator going up,walking at 3.5 mph,0
+in elevator going up,walking at 3 mph,0
+in elevator going up,walking outdoor,2
+in elevator going up,walking stairs up,0
+in elevator going up,walking stairs down,0
+in elevator going up,running at 5.5 mph 5% grade on treadmill,0
+in elevator going up,biking outdoor,0
+in elevator going up,biking stationary at 300 KPM/min,0
+in elevator going up,vending machine,0
+in elevator going up,frisbee,0
+in elevator going up,lying on back,0
+in elevator going up,sweeping,1
+in elevator going up,folding pile of towels,0
+in elevator going up,shelf unloading,1
+in elevator going up,shelf reloading,0
+in elevator going up,jumping jacks,0
+jumping jacks,sitting,0
+jumping jacks,standing,0
+jumping jacks,on escalator going up,0
+jumping jacks,in elevator going up,0
+jumping jacks,walking at 1 mph,0
+jumping jacks,walking at 2 mph,0
+jumping jacks,walking at 3.5 mph,0
+jumping jacks,walking at 3 mph,0
+jumping jacks,walking outdoor,0
+jumping jacks,walking stairs up,0
+jumping jacks,walking stairs down,3
+jumping jacks,running at 5.5 mph 5% grade on treadmill,0
+jumping jacks,biking outdoor,0
+jumping jacks,biking stationary at 300 KPM/min,0
+jumping jacks,vending machine,0
+jumping jacks,frisbee,0
+jumping jacks,lying on back,0
+jumping jacks,sweeping,0
+jumping jacks,folding pile of towels,0
+jumping jacks,shelf unloading,0
+jumping jacks,shelf reloading,0
+jumping jacks,jumping jacks,2
+lying on back,sitting,79
+lying on back,standing,0
+lying on back,on escalator going up,0
+lying on back,in elevator going up,0
+lying on back,walking at 1 mph,0
+lying on back,walking at 2 mph,0
+lying on back,walking at 3.5 mph,0
+lying on back,walking at 3 mph,0
+lying on back,walking outdoor,0
+lying on back,walking stairs up,0
+lying on back,walking stairs down,0
+lying on back,running at 5.5 mph 5% grade on treadmill,0
+lying on back,biking outdoor,0
+lying on back,biking stationary at 300 KPM/min,0
+lying on back,vending machine,0
+lying on back,frisbee,0
+lying on back,lying on back,36
+lying on back,sweeping,0
+lying on back,folding pile of towels,0
+lying on back,shelf unloading,0
+lying on back,shelf reloading,0
+lying on back,jumping jacks,0
+on escalator going up,sitting,0
+on escalator going up,standing,0
+on escalator going up,on escalator going up,0
+on escalator going up,in elevator going up,0
+on escalator going up,walking at 1 mph,0
+on escalator going up,walking at 2 mph,0
+on escalator going up,walking at 3.5 mph,0
+on escalator going up,walking at 3 mph,0
+on escalator going up,walking outdoor,0
+on escalator going up,walking stairs up,0
+on escalator going up,walking stairs down,1
+on escalator going up,running at 5.5 mph 5% grade on treadmill,0
+on escalator going up,biking outdoor,0
+on escalator going up,biking stationary at 300 KPM/min,0
+on escalator going up,vending machine,0
+on escalator going up,frisbee,0
+on escalator going up,lying on back,0
+on escalator going up,sweeping,0
+on escalator going up,folding pile of towels,0
+on escalator going up,shelf unloading,0
+on escalator going up,shelf reloading,0
+on escalator going up,jumping jacks,0
+running at 5.5 mph 5% grade on treadmill,sitting,0
+running at 5.5 mph 5% grade on treadmill,standing,0
+running at 5.5 mph 5% grade on treadmill,on escalator going up,0
+running at 5.5 mph 5% grade on treadmill,in elevator going up,0
+running at 5.5 mph 5% grade on treadmill,walking at 1 mph,0
+running at 5.5 mph 5% grade on treadmill,walking at 2 mph,0
+running at 5.5 mph 5% grade on treadmill,walking at 3.5 mph,0
+running at 5.5 mph 5% grade on treadmill,walking at 3 mph,0
+running at 5.5 mph 5% grade on treadmill,walking outdoor,0
+running at 5.5 mph 5% grade on treadmill,walking stairs up,0
+running at 5.5 mph 5% grade on treadmill,walking stairs down,0
+running at 5.5 mph 5% grade on treadmill,running at 5.5 mph 5% grade on treadmill,37
+running at 5.5 mph 5% grade on treadmill,biking outdoor,0
+running at 5.5 mph 5% grade on treadmill,biking stationary at 300 KPM/min,0
+running at 5.5 mph 5% grade on treadmill,vending machine,0
+running at 5.5 mph 5% grade on treadmill,frisbee,1
+running at 5.5 mph 5% grade on treadmill,lying on back,0
+running at 5.5 mph 5% grade on treadmill,sweeping,0
+running at 5.5 mph 5% grade on treadmill,folding pile of towels,0
+running at 5.5 mph 5% grade on treadmill,shelf unloading,0
+running at 5.5 mph 5% grade on treadmill,shelf reloading,0
+running at 5.5 mph 5% grade on treadmill,jumping jacks,0
+shelf reloading,sitting,0
+shelf reloading,standing,2
+shelf reloading,on escalator going up,0
+shelf reloading,in elevator going up,0
+shelf reloading,walking at 1 mph,0
+shelf reloading,walking at 2 mph,0
+shelf reloading,walking at 3.5 mph,0
+shelf reloading,walking at 3 mph,0
+shelf reloading,walking outdoor,0
+shelf reloading,walking stairs up,0
+shelf reloading,walking stairs down,0
+shelf reloading,running at 5.5 mph 5% grade on treadmill,0
+shelf reloading,biking outdoor,0
+shelf reloading,biking stationary at 300 KPM/min,0
+shelf reloading,vending machine,2
+shelf reloading,frisbee,1
+shelf reloading,lying on back,0
+shelf reloading,sweeping,2
+shelf reloading,folding pile of towels,0
+shelf reloading,shelf unloading,0
+shelf reloading,shelf reloading,0
+shelf reloading,jumping jacks,0
+shelf unloading,sitting,0
+shelf unloading,standing,0
+shelf unloading,on escalator going up,0
+shelf unloading,in elevator going up,0
+shelf unloading,walking at 1 mph,0
+shelf unloading,walking at 2 mph,0
+shelf unloading,walking at 3.5 mph,0
+shelf unloading,walking at 3 mph,0
+shelf unloading,walking outdoor,0
+shelf unloading,walking stairs up,0
+shelf unloading,walking stairs down,0
+shelf unloading,running at 5.5 mph 5% grade on treadmill,0
+shelf unloading,biking outdoor,0
+shelf unloading,biking stationary at 300 KPM/min,0
+shelf unloading,vending machine,1
+shelf unloading,frisbee,0
+shelf unloading,lying on back,0
+shelf unloading,sweeping,0
+shelf unloading,folding pile of towels,0
+shelf unloading,shelf unloading,0
+shelf unloading,shelf reloading,1
+shelf unloading,jumping jacks,0
+sitting,sitting,235
+sitting,standing,0
+sitting,on escalator going up,0
+sitting,in elevator going up,0
+sitting,walking at 1 mph,0
+sitting,walking at 2 mph,0
+sitting,walking at 3.5 mph,0
+sitting,walking at 3 mph,0
+sitting,walking outdoor,0
+sitting,walking stairs up,0
+sitting,walking stairs down,0
+sitting,running at 5.5 mph 5% grade on treadmill,0
+sitting,biking outdoor,14
+sitting,biking stationary at 300 KPM/min,0
+sitting,vending machine,0
+sitting,frisbee,0
+sitting,lying on back,31
+sitting,sweeping,1
+sitting,folding pile of towels,0
+sitting,shelf unloading,0
+sitting,shelf reloading,0
+sitting,jumping jacks,0
+standing,sitting,0
+standing,standing,159
+standing,on escalator going up,5
+standing,in elevator going up,4
+standing,walking at 1 mph,2
+standing,walking at 2 mph,0
+standing,walking at 3.5 mph,0
+standing,walking at 3 mph,0
+standing,walking outdoor,1
+standing,walking stairs up,0
+standing,walking stairs down,2
+standing,running at 5.5 mph 5% grade on treadmill,0
+standing,biking outdoor,4
+standing,biking stationary at 300 KPM/min,0
+standing,vending machine,3
+standing,frisbee,0
+standing,lying on back,0
+standing,sweeping,22
+standing,folding pile of towels,34
+standing,shelf unloading,1
+standing,shelf reloading,2
+standing,jumping jacks,0
+sweeping,sitting,0
+sweeping,standing,10
+sweeping,on escalator going up,0
+sweeping,in elevator going up,0
+sweeping,walking at 1 mph,0
+sweeping,walking at 2 mph,0
+sweeping,walking at 3.5 mph,0
+sweeping,walking at 3 mph,0
+sweeping,walking outdoor,2
+sweeping,walking stairs up,0
+sweeping,walking stairs down,8
+sweeping,running at 5.5 mph 5% grade on treadmill,0
+sweeping,biking outdoor,22
+sweeping,biking stationary at 300 KPM/min,0
+sweeping,vending machine,2
+sweeping,frisbee,1
+sweeping,lying on back,0
+sweeping,sweeping,4
+sweeping,folding pile of towels,4
+sweeping,shelf unloading,10
+sweeping,shelf reloading,9
+sweeping,jumping jacks,0
+vending machine,sitting,0
+vending machine,standing,13
+vending machine,on escalator going up,1
+vending machine,in elevator going up,0
+vending machine,walking at 1 mph,0
+vending machine,walking at 2 mph,0
+vending machine,walking at 3.5 mph,0
+vending machine,walking at 3 mph,0
+vending machine,walking outdoor,0
+vending machine,walking stairs up,0
+vending machine,walking stairs down,0
+vending machine,running at 5.5 mph 5% grade on treadmill,0
+vending machine,biking outdoor,0
+vending machine,biking stationary at 300 KPM/min,0
+vending machine,vending machine,2
+vending machine,frisbee,0
+vending machine,lying on back,0
+vending machine,sweeping,2
+vending machine,folding pile of towels,3
+vending machine,shelf unloading,0
+vending machine,shelf reloading,0
+vending machine,jumping jacks,0
+walking at 1 mph,sitting,0
+walking at 1 mph,standing,0
+walking at 1 mph,on escalator going up,0
+walking at 1 mph,in elevator going up,0
+walking at 1 mph,walking at 1 mph,22
+walking at 1 mph,walking at 2 mph,0
+walking at 1 mph,walking at 3.5 mph,0
+walking at 1 mph,walking at 3 mph,0
+walking at 1 mph,walking outdoor,0
+walking at 1 mph,walking stairs up,0
+walking at 1 mph,walking stairs down,0
+walking at 1 mph,running at 5.5 mph 5% grade on treadmill,0
+walking at 1 mph,biking outdoor,0
+walking at 1 mph,biking stationary at 300 KPM/min,0
+walking at 1 mph,vending machine,0
+walking at 1 mph,frisbee,1
+walking at 1 mph,lying on back,0
+walking at 1 mph,sweeping,2
+walking at 1 mph,folding pile of towels,1
+walking at 1 mph,shelf unloading,0
+walking at 1 mph,shelf reloading,2
+walking at 1 mph,jumping jacks,0
+walking at 2 mph,sitting,0
+walking at 2 mph,standing,0
+walking at 2 mph,on escalator going up,0
+walking at 2 mph,in elevator going up,1
+walking at 2 mph,walking at 1 mph,0
+walking at 2 mph,walking at 2 mph,8
+walking at 2 mph,walking at 3.5 mph,0
+walking at 2 mph,walking at 3 mph,0
+walking at 2 mph,walking outdoor,1
+walking at 2 mph,walking stairs up,0
+walking at 2 mph,walking stairs down,0
+walking at 2 mph,running at 5.5 mph 5% grade on treadmill,0
+walking at 2 mph,biking outdoor,0
+walking at 2 mph,biking stationary at 300 KPM/min,0
+walking at 2 mph,vending machine,0
+walking at 2 mph,frisbee,1
+walking at 2 mph,lying on back,0
+walking at 2 mph,sweeping,0
+walking at 2 mph,folding pile of towels,0
+walking at 2 mph,shelf unloading,0
+walking at 2 mph,shelf reloading,0
+walking at 2 mph,jumping jacks,0
+walking at 3 mph,sitting,0
+walking at 3 mph,standing,0
+walking at 3 mph,on escalator going up,0
+walking at 3 mph,in elevator going up,0
+walking at 3 mph,walking at 1 mph,0
+walking at 3 mph,walking at 2 mph,0
+walking at 3 mph,walking at 3.5 mph,0
+walking at 3 mph,walking at 3 mph,4
+walking at 3 mph,walking outdoor,26
+walking at 3 mph,walking stairs up,0
+walking at 3 mph,walking stairs down,0
+walking at 3 mph,running at 5.5 mph 5% grade on treadmill,0
+walking at 3 mph,biking outdoor,0
+walking at 3 mph,biking stationary at 300 KPM/min,0
+walking at 3 mph,vending machine,0
+walking at 3 mph,frisbee,0
+walking at 3 mph,lying on back,0
+walking at 3 mph,sweeping,0
+walking at 3 mph,folding pile of towels,0
+walking at 3 mph,shelf unloading,0
+walking at 3 mph,shelf reloading,0
+walking at 3 mph,jumping jacks,0
+walking at 3.5 mph,sitting,0
+walking at 3.5 mph,standing,0
+walking at 3.5 mph,on escalator going up,0
+walking at 3.5 mph,in elevator going up,0
+walking at 3.5 mph,walking at 1 mph,0
+walking at 3.5 mph,walking at 2 mph,0
+walking at 3.5 mph,walking at 3.5 mph,46
+walking at 3.5 mph,walking at 3 mph,0
+walking at 3.5 mph,walking outdoor,24
+walking at 3.5 mph,walking stairs up,0
+walking at 3.5 mph,walking stairs down,0
+walking at 3.5 mph,running at 5.5 mph 5% grade on treadmill,0
+walking at 3.5 mph,biking outdoor,0
+walking at 3.5 mph,biking stationary at 300 KPM/min,1
+walking at 3.5 mph,vending machine,0
+walking at 3.5 mph,frisbee,0
+walking at 3.5 mph,lying on back,0
+walking at 3.5 mph,sweeping,1
+walking at 3.5 mph,folding pile of towels,0
+walking at 3.5 mph,shelf unloading,0
+walking at 3.5 mph,shelf reloading,0
+walking at 3.5 mph,jumping jacks,0
+walking outdoor,sitting,0
+walking outdoor,standing,0
+walking outdoor,on escalator going up,0
+walking outdoor,in elevator going up,0
+walking outdoor,walking at 1 mph,0
+walking outdoor,walking at 2 mph,22
+walking outdoor,walking at 3.5 mph,0
+walking outdoor,walking at 3 mph,155
+walking outdoor,walking outdoor,175
+walking outdoor,walking stairs up,2
+walking outdoor,walking stairs down,9
+walking outdoor,running at 5.5 mph 5% grade on treadmill,0
+walking outdoor,biking outdoor,0
+walking outdoor,biking stationary at 300 KPM/min,0
+walking outdoor,vending machine,0
+walking outdoor,frisbee,4
+walking outdoor,lying on back,0
+walking outdoor,sweeping,4
+walking outdoor,folding pile of towels,0
+walking outdoor,shelf unloading,0
+walking outdoor,shelf reloading,0
+walking outdoor,jumping jacks,0
+walking stairs down,sitting,0
+walking stairs down,standing,0
+walking stairs down,on escalator going up,0
+walking stairs down,in elevator going up,0
+walking stairs down,walking at 1 mph,0
+walking stairs down,walking at 2 mph,0
+walking stairs down,walking at 3.5 mph,0
+walking stairs down,walking at 3 mph,0
+walking stairs down,walking outdoor,1
+walking stairs down,walking stairs up,0
+walking stairs down,walking stairs down,2
+walking stairs down,running at 5.5 mph 5% grade on treadmill,0
+walking stairs down,biking outdoor,0
+walking stairs down,biking stationary at 300 KPM/min,0
+walking stairs down,vending machine,0
+walking stairs down,frisbee,1
+walking stairs down,lying on back,0
+walking stairs down,sweeping,1
+walking stairs down,folding pile of towels,0
+walking stairs down,shelf unloading,0
+walking stairs down,shelf reloading,0
+walking stairs down,jumping jacks,0
+walking stairs up,sitting,0
+walking stairs up,standing,0
+walking stairs up,on escalator going up,0
+walking stairs up,in elevator going up,0
+walking stairs up,walking at 1 mph,0
+walking stairs up,walking at 2 mph,0
+walking stairs up,walking at 3.5 mph,0
+walking stairs up,walking at 3 mph,0
+walking stairs up,walking outdoor,0
+walking stairs up,walking stairs up,11
+walking stairs up,walking stairs down,7
+walking stairs up,running at 5.5 mph 5% grade on treadmill,0
+walking stairs up,biking outdoor,1
+walking stairs up,biking stationary at 300 KPM/min,0
+walking stairs up,vending machine,0
+walking stairs up,frisbee,0
+walking stairs up,lying on back,0
+walking stairs up,sweeping,0
+walking stairs up,folding pile of towels,0
+walking stairs up,shelf unloading,0
+walking stairs up,shelf reloading,0
+walking stairs up,jumping jacks,2

@@ -1,0 +1,23 @@
+id,followers,following
+sitting,0,0
+standing,0,0
+on escalator going up,0,0
+in elevator going up,0,0
+walking at 1 mph,0,0
+walking at 2 mph,0,0
+walking at 3.5 mph,0,0
+walking at 3 mph,0,0
+walking outdoor,0,0
+walking stairs up,0,0
+walking stairs down,0,0
+running at 5.5 mph 5% grade on treadmill,0,0
+biking outdoor,0,0
+biking stationary at 300 KPM/min,0,0
+vending machine,0,0
+frisbee,0,0
+lying on back,0,0
+sweeping,0,0
+folding pile of towels,0,0
+shelf unloading,0,0
+shelf reloading,0,0
+jumping jacks,0,0
